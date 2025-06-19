@@ -1,0 +1,64 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=breadboard
+[Library]
+breadboard=.\breadboard\breadboard.lib
+[$LibMap$]
+breadboard=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/control_logic.v=-1
+/breadboard.v=-1
+/dflipflop.v=-1
+/pwmgen.v=-1
+/ALU.v=-1
+/clk_gen.v=-1
+/decoder.v=-1
+/fulladder.v=-1
+/addition8bit.v=-1
+/subtraction8bit.v=-1
+/memory.v=-1
+/memoryunit.v=-1
+/membreadboard.v=-1
+/alubreadboard.v=-1
+/memory8bit.v=-1
+/pwmbreadboard.v=-1
+/sequenceckt.v=-1
+/controlunit.v=-1
+/RGB_processor.v=-1
+/rgb_processor_tb.v=-1
+[Files.Data]
+.\src\control_logic.v=Verilog Source Code
+.\src\breadboard.v=Verilog Source Code
+.\src\dflipflop.v=Verilog Source Code
+.\src\pwmgen.v=Verilog Source Code
+.\src\ALU.v=Verilog Source Code
+.\src\clk_gen.v=Verilog Source Code
+.\src\decoder.v=Verilog Source Code
+.\src\fulladder.v=Verilog Source Code
+.\src\addition8bit.v=Verilog Source Code
+.\src\subtraction8bit.v=Verilog Source Code
+.\src\memory.v=Verilog Source Code
+.\src\memoryunit.v=Verilog Source Code
+.\src\membreadboard.v=Verilog Source Code
+.\src\alubreadboard.v=Verilog Source Code
+.\src\memory8bit.v=Verilog Source Code
+.\src\pwmbreadboard.v=Verilog Source Code
+.\src\sequenceckt.v=Verilog Source Code
+.\src\controlunit.v=Verilog Source Code
+.\src\RGB_processor.v=Verilog Source Code
+.\src\rgb_processor_tb.v=Verilog Source Code
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

@@ -1,0 +1,239 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, using existing simulator library: 0.0 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 10 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4668 kB (elbread=427 elab2=4107 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location G:\CSE(4-2)\CSE 4224 DSD LAB\RGB_Controller\breadboard\src\wave.asdb
+#  3:09 PM, Tuesday, January 14, 2025
+#  Simulation has been initialized
+run
+# KERNEL: Initial RED value: 100
+# KERNEL: Time: 200 | RED: 100 | PWM_OUT: 1
+# KERNEL: Updated RED value after 10% increment: 110
+# KERNEL: Time: 400 | RED: 110 | PWM_OUT: 1
+# KERNEL: Updated RED value after 10% increment: 121
+# KERNEL: Time: 600 | RED: 121 | PWM_OUT: 1
+# KERNEL: Updated RED value after 10% increment: 133
+# KERNEL: Time: 800 | RED: 133 | PWM_OUT: 1
+# KERNEL: Updated RED value after 10% increment: 146
+# KERNEL: Time: 1000 | RED: 146 | PWM_OUT: 1
+# KERNEL: Updated RED value after 10% increment: 160
+# RUNTIME: Info: RUNTIME_0070 breadboard.v (45): $stop called.
+# KERNEL: Time: 1 ns,  Iteration: 0,  Instance: /breadboard,  Process: @INITIAL#23_1@.
+# KERNEL: Stopped at time 1 ns + 0.
+run
+endsim
+# KERNEL: stopped at time: 3616385 ps
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, using existing simulator library: 0.0 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 10 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4668 kB (elbread=427 elab2=4107 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location G:\CSE(4-2)\CSE 4224 DSD LAB\RGB_Controller\breadboard\src\wave.asdb
+#  3:11 PM, Tuesday, January 14, 2025
+#  Simulation has been initialized
+run
+# KERNEL: Initial RED value: 100
+# KERNEL: Time: 200 | RED: 100 | PWM_OUT: 1
+# KERNEL: Updated RED value after 10% increment: 110
+# KERNEL: Time: 400 | RED: 110 | PWM_OUT: 1
+# KERNEL: Updated RED value after 10% increment: 121
+# KERNEL: Time: 600 | RED: 121 | PWM_OUT: 1
+# KERNEL: Updated RED value after 10% increment: 133
+# KERNEL: Time: 800 | RED: 133 | PWM_OUT: 1
+# KERNEL: Updated RED value after 10% increment: 146
+# KERNEL: Time: 1000 | RED: 146 | PWM_OUT: 1
+# KERNEL: Updated RED value after 10% increment: 160
+# RUNTIME: Info: RUNTIME_0070 breadboard.v (45): $stop called.
+# KERNEL: Time: 1 ns,  Iteration: 0,  Instance: /breadboard,  Process: @INITIAL#23_1@.
+# KERNEL: Stopped at time 1 ns + 0.
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "rgb_processor_tb" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "RGB_processor" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+rgb_processor_tb rgb_processor_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "rgb_processor_tb" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "RGB_processor" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.0 [s]
+# SLP: Finished : 1.1 [s]
+# SLP: 0 primitives and 159 (100.00%) other processes in SLP
+# SLP: 450 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4684 kB (elbread=428 elab2=4122 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location G:\CSE(4-2)\CSE 4224 DSD LAB\RGB_Controller\breadboard\src\wave.asdb
+#  3:14 PM, Tuesday, January 14, 2025
+#  Simulation has been initialized
+run
+# KERNEL: Time: 10 | R_Out: 00000000 | G_Out: 00000000 | B_Out: 00000000
+# KERNEL: Time: 15 | R_Out: 00001010 | G_Out: 00001010 | B_Out: 00001010
+# KERNEL: Time: 25 | R_Out: 00010100 | G_Out: 00010100 | B_Out: 00010100
+# KERNEL: Time: 35 | R_Out: 00001010 | G_Out: 00001010 | B_Out: 00001010
+# KERNEL: Time: 45 | R_Out: 00000000 | G_Out: 00000000 | B_Out: 00000000
+# RUNTIME: Info: RUNTIME_0068 rgb_processor_tb.v (53): $finish called.
+# KERNEL: Time: 50 ps,  Iteration: 0,  Instance: /rgb_processor_tb,  Process: @INITIAL#27_2@.
+# KERNEL: stopped at time: 50 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, using existing simulator library: 0.0 [s]
+# SLP: Finished : 0.2 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 10 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4668 kB (elbread=427 elab2=4107 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location G:\CSE(4-2)\CSE 4224 DSD LAB\RGB_Controller\breadboard\src\wave.asdb
+#  3:23 PM, Tuesday, January 14, 2025
+#  Simulation has been initialized
+run
+# KERNEL: Initial RED value: 100
+# KERNEL: Time: 200 | RED: 100 | PWM_OUT: 1
+# KERNEL: Updated RED value after 10% increment: 110
+# KERNEL: Time: 400 | RED: 110 | PWM_OUT: 1
+# KERNEL: Updated RED value after 10% increment: 121
+# KERNEL: Time: 600 | RED: 121 | PWM_OUT: 1
+# KERNEL: Updated RED value after 10% increment: 133
+# KERNEL: Time: 800 | RED: 133 | PWM_OUT: 1
+# KERNEL: Updated RED value after 10% increment: 146
+# KERNEL: Time: 1000 | RED: 146 | PWM_OUT: 1
+# KERNEL: Updated RED value after 10% increment: 160
+# RUNTIME: Info: RUNTIME_0070 breadboard.v (45): $stop called.
+# KERNEL: Time: 1 ns,  Iteration: 0,  Instance: /breadboard,  Process: @INITIAL#23_1@.
+# KERNEL: Stopped at time 1 ns + 0.
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "rgb_processor_tb" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "RGB_processor" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+rgb_processor_tb rgb_processor_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "rgb_processor_tb" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "RGB_processor" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work breadboard $dsn/src/rgb_processor_tb.v
+# Unit top modules: rgb_processor_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "rgb_processor_tb" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "RGB_processor" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.1 [s]
+# SLP: Finished : 1.2 [s]
+# SLP: 0 primitives and 159 (100.00%) other processes in SLP
+# SLP: 450 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4684 kB (elbread=428 elab2=4122 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location G:\CSE(4-2)\CSE 4224 DSD LAB\RGB_Controller\breadboard\src\wave.asdb
+#  3:36 PM, Tuesday, January 14, 2025
+#  Simulation has been initialized
+run
+# KERNEL: Time: 10 | R_Out: 00000000 | G_Out: 00000000 | B_Out: 00000000
+# KERNEL: Time: 15 | R_Out: 00001010 | G_Out: 00001010 | B_Out: 00001010
+# KERNEL: Time: 25 | R_Out: 00010100 | G_Out: 00010100 | B_Out: 00010100
+# KERNEL: Time: 35 | R_Out: 00001010 | G_Out: 00001010 | B_Out: 00001010
+# KERNEL: Time: 45 | R_Out: 00000000 | G_Out: 00000000 | B_Out: 00000000
+# RUNTIME: Info: RUNTIME_0068 rgb_processor_tb.v (53): $finish called.
+# KERNEL: Time: 50 ps,  Iteration: 0,  Instance: /rgb_processor_tb,  Process: @INITIAL#27_2@.
+# KERNEL: stopped at time: 50 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.

@@ -1,0 +1,245 @@
+timestamp=1736847390932
+
+[~A]
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/ALU.v=0*285391*286071
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/RGB_processor.v=0*287288*288042
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/RGB_processor.v_rgb_processor_tb.v=0*262059*263201
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/addition4bit.v=0*76660*77397
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/addition8bit.v=0*281812*282533
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/alubreadboard.v=0*248671*249329
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/breadboard.v=0*238165*239204
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/clk_gen.v=0*53188*53696
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/control_logic.v=0*50821*52264
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/controlunit.v=0*291223*292696
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/decoder.v=0*220246*220818
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/dflipflop.v=0*152962*153472
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/dflipflop.v_control_logic.v_breadboard.v=0*34400*36076
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/fulladder.v=0*283691*284201
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/fulladder.v_subtraction8bit.v_addition8bit.v=0*103386*104457
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/membreadboard.v=0*150986*151932
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/memory.v=0*277889*278620
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/memory8bit.v=0*274081*274912
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/memoryunit.v=0*276105*276712
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/pwmbreadboard.v=0*207558*208488
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/pwmgen.v=0*62991*63978
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/pwmgen.v_breadboard.v=0*69795*70667
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/rgb_processor_tb.v=0*293824*294597
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/sequenceckt.v=0*221948*222764
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/subtraction8bit.v=0*279829*280585
+LastVerilogToplevel=rgb_processor_tb
+ModifyID=154
+Version=74
+
+[~MFT]
+0=6|0breadboard.mgf|294597|177169
+1=4|1breadboard.mgf|425510|372218
+3=8|3breadboard.mgf|372371|323847
+
+[$root]
+A/$root=22|||1*425024
+BinW64/$root=3*371018
+SLP=3*371133
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c92168601ea61f780e3ea72408d6f1fe4a6d3
+
+[ALU]
+A/ALU=22|../src/ALU.v|3|1*412701
+BinW64/ALU=3*362850
+R=../src/ALU.v|3
+SLP=3*363497
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b3eb40c25b2a3c0379c7730185183eec8ec6a5c75bbbaca368ac092fca45c406
+
+[ALU_tb]
+A/ALU_tb=22|../src/alubreadboard.v|3|1*358297
+BinW64/ALU_tb=3*332286
+R=../src/alubreadboard.v|3
+SLP=3*333016
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b991c9f412e6706da1c2ecbb67c6e548cee31682b26dd59ffac68f667f153a6f
+
+[DFF_PWM]
+A/DFF_PWM=22|../src/pwmgen.v|61|1*105503
+BinW64/DFF_PWM=3*151241
+R=../src/pwmgen.v|61
+SLP=3*151629
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|046f242bafb02de8c377f31f57145b2626527262ddaa47cb266f3a3c4d9b973a6477df371d7e7f050bce855c81583add
+
+[RGB_processor]
+A/RGB_processor=22|../src/RGB_processor.v|1|1*415301
+BinW64/RGB_processor=3*363966
+R=../src/RGB_processor.v|1
+SLP=3*364813
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|f257f9ab90b73095fa089e6cca210080da59db02fda038d1ee3fd434e0515439942a9388a9d94d6258706fadcad738ae
+
+[RGB_processormodule]
+A/RGB_processormodule=22|../src/RGB_processor.v|27|1*344889
+BinW64/RGB_processormodule=3*324053
+R=../src/RGB_processor.v|27
+SLP=3*325468
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|f257f9ab90b73095fa089e6cca21008006d851d37f7d529574574960e8c28f63a9989e07b5241af08efab029a664bc0f
+
+[addition4bit]
+A/addition4bit=22|../src/addition4bit.v|22|1*121310
+BinW64/addition4bit=3*164223
+R=../src/addition4bit.v|22
+SLP=3*164345
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|6b1eb5e38065c8bee3ea138198f378738911183723ad1462220e7802a78be533d0193af12bdda52025a583190c9be591
+
+[addition8bit]
+A/addition8bit=22|../src/addition8bit.v|4|1*407902
+BinW64/addition8bit=3*361135
+R=../src/addition8bit.v|4
+SLP=3*361257
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|6082518543a90e0c6cb0a2ee6d5984ded403e9af6358ea355481c9db5d141df78b59a33f53a3a588ac58645a52a9a532
+
+[alubreadboard]
+A/alubreadboard=22|../src/alubreadboard.v|8|1*307981
+BinW64/alubreadboard=3*296646
+R=../src/alubreadboard.v|8
+SLP=3*297645
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c7742808d62643472569d6debbab0a556f8fa710de01a3eae10f68d606bfd26ee3be5e40d4b3f686bad4b54bd36561d4
+
+[brad_board]
+A/brad_board=22|../src/breadboard.v|3|1*342335
+BinW64/brad_board=3*320762
+R=../src/breadboard.v|3
+SLP=3*322547
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|3467d6d2ff45b82c6eb2d628630e7daf6a94f48f35e246e6bedf12da0f31149a3ab1ad9367e13c7d1b3475eb9200cd3a
+
+[breadboard]
+A/breadboard=22|../src/breadboard.v|3|1*242473
+BinW64/breadboard=3*240055
+R=../src/breadboard.v|3
+SLP=3*241334
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8bba35ebb1d6b345a990b9e2e604cd61e7cb43217a5ab22c7aa273b9580ec14ab8f81e3e133667197643fcb06b9ea5e1
+
+[clk_gen]
+A/clk_gen=22|../src/clk_gen.v|27|1*91438
+BinW64/clk_gen=3*138212
+R=../src/clk_gen.v|27
+SLP=3*138711
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|3c5cdd1836cb3585af8f40d86676df3e26527262ddaa47cb266f3a3c4d9b973aba678cae6240e87691475b7a6c844f76
+
+[control_logic]
+A/control_logic=22|../src/control_logic.v|3|1*87402
+BinW64/control_logic=3*126058
+R=../src/control_logic.v|3
+SLP=3*136039
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|f96c2189c3698385f875c02440a18f13a17f40922c941617b84c0d2a5e50fc42223afa0b3e676fa54dde825b9d6e7c0b
+
+[controlunit]
+A/controlunit=22|../src/controlunit.v|3|1*420980
+BinW64/controlunit=3*367376
+R=../src/controlunit.v|3
+SLP=3*369376
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|49bc9eef0cc431a4d98f9f55b61f1581a1b72c74b362bfaf9c7235d71f436ac294c123a77db235c7c71e3a4ce412806c
+
+[decoder]
+A/decoder=22|../src/decoder.v|27|1*319236
+BinW64/decoder=3*303756
+R=../src/decoder.v|27
+SLP=3*304764
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|5b5fade5c44e27adecc486171142a1d226527262ddaa47cb266f3a3c4d9b973a6ec90ddfa047e92db95665ef95dd99f1
+
+[dflipflop]
+A/dflipflop=22|../src/dflipflop.v|3|1*236496
+BinW64/dflipflop=3*234682
+R=../src/dflipflop.v|3
+SLP=3*235216
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|3a67d30d807d773d6fff614f8e657a86030c5f4de3ffa3c97f58c5528f1d7913788513217950ce62eeed6552f190ab41
+
+[fulladder]
+A/fulladder=22|../src/fulladder.v|7|1*410913
+BinW64/fulladder=3*361894
+R=../src/fulladder.v|7
+SLP=3*362444
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c12a13e6fa1dde32095fc858f2c5d0a25fe0f6cc11f37d48b53e35433dff82a00593499934905534117acfb61588474b
+
+[membreadboard]
+A/membreadboard=22|../src/membreadboard.v|3|1*233944
+BinW64/membreadboard=3*231976
+R=../src/membreadboard.v|3
+SLP=3*233472
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|2091276540cdc34fdcdd6b8355654809cd93b5bc3b4d078213b216b6c65730ed53402bad2650e280d00101f43e1411bd
+
+[memory]
+A/memory=22|../src/memory.v|7|1*400091
+BinW64/memory=3*358227
+R=../src/memory.v|7
+SLP=3*359043
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|fce057f312e65ae91f0ff41fc8956633760c7c16c4efdd689d43f67de38fd149
+
+[memory8bit]
+A/memory8bit=22|../src/memory8bit.v|7|1*394182
+BinW64/memory8bit=3*355630
+R=../src/memory8bit.v|7
+SLP=3*356542
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|f5a74fbded29235452119dad85c55ad0bc36373f868df66bc2a290a2bdbb090ae5fe0187fa746eab9f1743fa067ee50a
+
+[memoryunit]
+A/memoryunit=22|../src/memoryunit.v|6|1*397723
+BinW64/memoryunit=3*357722
+R=../src/memoryunit.v|6
+SLP=3*357842
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|cd9b0aede7f74b8cfbaee0b87de4fbfac4322b6edb00afbf82dc34bff978b9b370b2e88a191d5c5785b65802168ed7ec
+
+[pwmbreadboard]
+A/pwmbreadboard=22|../src/pwmbreadboard.v|3|1*302953
+BinW64/pwmbreadboard=3*292430
+R=../src/pwmbreadboard.v|3
+SLP=3*293668
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|3f8f29a5c1f25fdc1795c8c67aa4a4ef08b3f2f2732b6a9383cbea6b40306ca39e2a29e4fef0cd21077013db34c6b4dd
+
+[pwmgen]
+A/pwmgen=22|../src/pwmgen.v|4|1*112588
+BinW64/pwmgen=3*157423
+R=../src/pwmgen.v|4
+SLP=3*158290
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|62604c3b1ea9058e85b2f85e40d78e84c1c28d61ad650478321dd684dcb9d7b8
+
+[rgb_processor_tb]
+A/rgb_processor_tb=22|../src/rgb_processor_tb.v|1|1*425510
+BinW64/rgb_processor_tb=3*371201
+R=../src/rgb_processor_tb.v|1
+SLP=3*372371
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|16c9a2e7c2863464661ee6e209824a95aa812185a19d510d646fe46b29f098c628190bdee19f545d664600d2977c5fd9
+
+[sequenceckt]
+A/sequenceckt=22|../src/sequenceckt.v|3|1*321632
+BinW64/sequenceckt=3*305883
+R=../src/sequenceckt.v|3
+SLP=3*307502
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c41a439e8a091387b6305344137c79c21f6f41bd93699bd60c402915043572680f2b78a6cd2bdb34af5fd3525f7a51b2
+
+[subtraction8bit]
+A/subtraction8bit=22|../src/subtraction8bit.v|3|1*403230
+BinW64/subtraction8bit=3*359621
+R=../src/subtraction8bit.v|3
+SLP=3*360278
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|7deab3de4513128452bd5628ae6accca341998a0ed1d5b7182d92bb9769282e1c773e5ae4bb262537d76c3be1b45fa6b
+
+[~U]
+$root=12|0*293233|
+ALU=12|0*285142|
+ALU_tb=12|0*248510||0x10
+DFF_PWM=12|0*62786|
+RGB_processor=12|0*287006|
+RGB_processormodule=12|0*240114||0x10
+addition4bit=12|0*76397||0x10
+addition8bit=12|0*281548|
+alubreadboard=12|0*211217||0x10
+brad_board=12|0*237987||0x10
+breadboard=12|0*157732||0x10
+clk_gen=12|0*53001||0x10
+control_logic=12|0*50434|
+controlunit=12|0*290909|
+decoder=12|0*220049||0x10
+dflipflop=12|0*152749||0x10
+fulladder=12|0*283477|
+membreadboard=12|0*150804||0x10
+memory=12|0*277638||0x10
+memory8bit=12|0*273813|
+memoryunit=12|0*275822|
+pwmbreadboard=12|0*207371||0x10
+pwmgen=12|0*69414|
+rgb_processor_tb=12|0*293639||0x10
+sequenceckt=12|0*221677||0x10
+subtraction8bit=12|0*279558|

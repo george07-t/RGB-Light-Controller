@@ -1,0 +1,1 @@
+-o "G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/compile" -lc "G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/library.cfg" -fl "G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/projlib.cfg" -pli "G:/CSE(4-2)/CSE 4224 DSD LAB/aldech/bin/systf.dll" -O2 -sve -msg 5 -sv2k17 -work breadboard "G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/rgb_processor_tb.v" 

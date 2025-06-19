@@ -1,0 +1,8 @@
+[Files List]
+G:/CSE(4-2)/CSE 4224 DSD LAB/aldech/vlib/std/src/standard.vhd=S
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/fulladder.v=S
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/subtraction8bit.v=S
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/addition8bit.v=S
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/ALU.v=S
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/RGB_processor.v=S
+G:/CSE(4-2)/CSE 4224 DSD LAB/RGB_Controller/breadboard/src/rgb_processor_tb.v=S
