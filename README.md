@@ -85,8 +85,8 @@ RGB_Controller/
 - Expand memory modules for more complex color storage.
 
 ## Authors
-- [Your Name Here]
-- [Lab Partners, if any]
+- [George Tonmoy Roy]
+- [Atikul Islam Atik]
 
 ## License
 This project is for educational purposes. Please credit the original authors if reused or modified.
